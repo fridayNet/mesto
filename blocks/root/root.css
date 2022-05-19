@@ -1,0 +1,11 @@
+.page {
+    min-width: 320px;
+    max-width: 880px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}

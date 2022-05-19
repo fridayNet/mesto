@@ -2,8 +2,14 @@
 
 @import url(../blocks/header/header.css);
 
+@import url(../blocks/profile/profile.css);
+
+@import url(../blocks/gallery/gallery.css);
+
 @import url(../blocks/footer/footer.css);
 
 @import url(../blocks/root/root.css);
 
 @import url(../fonts/fonts.css);
+
+@import url(../blocks/popap/popap__container.css);

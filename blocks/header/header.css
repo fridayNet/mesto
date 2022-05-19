@@ -1,0 +1,36 @@
+.header__vector {
+    padding-top: 45px; 
+    margin: auto;
+}
+@media screen and (max-width: 1280px) {
+    .header__vector  {
+        width: calc(100% - 54px);
+    }
+}
+.header__vector img {
+    width: 142px;
+    height: 33px;
+}
+@media screen and (max-width: 700px) {
+    .header__vector img{ 
+        width: 103.74px;
+        height: 24.4px;
+    }
+}
+hr {
+    margin-top: 41px;
+    border: 1px solid #545454;
+    opacity: 0.7;
+    
+}
+@media screen and (max-width: 1280px) {
+    hr  {
+        width: calc(100% - 54px);
+    }
+}
+@media screen and (max-width: 700px) {
+    hr{ 
+        width: 100%;
+        margin-top: 31px;
+    }
+}

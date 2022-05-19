@@ -4,20 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/index.css">
-    <title>&&&</title>
+    <title>mesto</title>
 </head>
-<body class="pages">
+<body class="page">
  <header>
-
+    <div class="header__vector">
+        <img src="images/Vector.svg" alt="vector">
+    </div>
+    <hr class="header__hr">
  </header>
 
+ <section class="profile">
+     
+     <div class="profile_container">
+        <div class="profile__avatar">
+            <img src="images/ava.jpg" alt="img">
+        </div>
+        <div class="profile__info">
+            <div class="profile__name">
+                <h1 class="profile__h1">Жак-Ив Кусто</h1>
+                <div class="rectangle">
+                    <img src="images/edit.svg" alt="vector_edit">
+                </div>
+            </div>
+            
+            <p class="profile__p">Исследователь океана</p>
+        </div>
+        <div class="profile__button">
+            <div class="profile__add-button">
+                <img src="images/plus.svg" alt="vector_plus">
+            </div>
+        </div>
+     </div>
+     
+ </section>
+
+<section class="gallery">
+    <div class="gallery__container">
+        <div class="gallery__box">
+            <img class="gallery__pic" src="images/mountains.png" alt="mountains">
+            <div class="box_name">
+                <h4>Карачаевск</h4>
+                <div class="box_like">
+                    <img src="images/like.svg" alt="like">
+                </div>
+            </div>
+        </div>
+        <div class="gallery__box">
+            <img class="gallery__pic" src="images/temple.png" alt="mountains">
+            <div class="box_name">
+                <h4>Гора Эльбрус</h4>
+                <div class="box_like">
+                    <img src="images/like.svg" alt="like">
+                </div>
+            </div>
+        </div>
+        <div class="gallery__box">
+            <img class="gallery__pic" src="images/field.png" alt="mountains">
+            <div class="box_name">
+                <h4>Домбай</h4>
+                <div class="box_like">
+                    <img src="images/like.svg" alt="like">
+                </div>
+            </div>
+        </div>
+        <div class="gallery__box">
+            <img class="gallery__pic" src="images/temple.png" alt="mountains">
+            <div class="box_name">
+                <h4>Гора Эльбрус Гора Эльбрус Гора Эльбрус</h4>
+                <div class="box_like">
+                    <img src="images/like.svg" alt="like">
+                </div>
+            </div>
+        </div>
+        <div class="gallery__box">
+            <img class="gallery__pic" src="images/field.png" alt="mountains">
+            <div class="box_name">
+                <h4>Домбай</h4>
+                <div class="box_like">
+                    <img src="images/like.svg" alt="like">
+                </div>
+            </div>
+        </div>
+        <div class="gallery__box">
+            <img class="gallery__pic" src="images/mountains.png" alt="mountains">
+            <div class="box_name">
+                <h4>Карачаевск</h4>
+                <div class="box_like">
+                    <img src="images/like.svg" alt="like">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
-
-<footer>
-
+<footer class="footer">
+    <p>© 2022 Mesto Russia</p>
 </footer>
+
+
+
+<section class="popap">
+    <div class="popap__container">
+    <img class="close_icon" src="images/Close Icon.svg" alt="Close_icon">
+
+        <form class="popap__form" action="#" enctype="text/plain">
+            <h2>Редактировать профиль</h2>
+            <input class="popap__form_firstname" type="text" id="firstname" name="firstname" value="Жак-Ив Кусто">
+            <input type="text" id="status" name="status" value="Исследователь океана"> 
+            <button type="submit">Сохранить</button>
+        </form>
+    </div>
+</section>
+
+
+
 
 <script src="js/index.js"></script>
 </body>

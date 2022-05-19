@@ -1,0 +1,136 @@
+.popap {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.popap__container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 430px;
+    height: 330px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;    
+}
+.close_icon {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.close_icon:hover {
+    opacity: 0.6;
+}
+
+.popap__form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 36px;
+}
+
+.popap__form h2 {
+    padding-bottom: 44px;
+    padding-top: 34px;
+    font-family: 'Inter-Bold';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
+.popap__form input {
+    font-size: 14px;
+    font-family: 'Inter-Light';
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 13px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+
+
+ #status{
+    margin-top: 30px;
+}
+
+.popap__form button {
+    margin-top: 44px;
+    margin-bottom: 37px;
+    width: 358px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+
+    font-family: 'Inter-Medium';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+.popap__form button:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:580px) {
+    .popap__container {
+        width: 282px;
+        height: 332px;
+    }
+    .close_icon {
+        position: absolute;
+        top: -36px;
+        right: 0px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    .popap__form {
+
+        padding: 0 22px;
+    }
+    .popap__form h2 {
+        padding-bottom: 75px;
+        padding-top: 25px;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .popap__form button {
+        margin-top: 45px;
+        margin-bottom: 25px;
+        width: 238px;
+        height: 46px;
+
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
+    }
+}
