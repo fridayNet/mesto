@@ -69,6 +69,7 @@
 }
 
 .popap__form button {
+    margin-top: 44px;
     margin-bottom: 37px;
     width: 358px;
     height: 50px;
@@ -119,7 +120,6 @@
     }
 
     .popap__form button {
-        margin-top: 45px;
         margin-bottom: 25px;
         width: 238px;
         height: 46px;
