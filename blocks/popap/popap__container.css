@@ -18,7 +18,9 @@
     background-color: #fff;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
     border-radius: 10px;    
+ 
 }
+
 .close_icon {
     position: absolute;
     top: -40px;
@@ -38,12 +40,12 @@
 }
 
 .popap__form h2 {
-    padding-bottom: 44px;
+    padding-bottom: 50px;
     padding-top: 34px;
     font-family: 'Inter-Bold';
     font-size: 24px;
     font-weight: 900;
-    line-height: 29px;
+    line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
 
@@ -54,23 +56,24 @@
     font-size: 14px;
     font-family: 'Inter-Light';
     font-weight: 400;
-    line-height: 17px;
+    line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
-    padding-bottom: 13px;
+    padding: 5px 0;
     border: none;
-    border-bottom: 1px solid #000000;
+    margin: 0;
+    
 }
 
 
 
  #status{
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .popap__form button {
-    margin-top: 44px;
-    margin-bottom: 37px;
+   position: absolute;
+   bottom: 37px;
     width: 358px;
     height: 50px;
     background-color: black;
@@ -78,14 +81,12 @@
     cursor: pointer;
     border-radius: 2px;
     border: none;
-
     font-family: 'Inter-Medium';
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
-
 
 }
 .popap__form button:hover {
@@ -94,6 +95,7 @@
 
 @media (max-width:580px) {
     .popap__container {
+        position: relative;
         width: 282px;
         height: 332px;
     }
@@ -110,7 +112,7 @@
         padding: 0 22px;
     }
     .popap__form h2 {
-        padding-bottom: 75px;
+        padding-bottom: 70px;
         padding-top: 25px;
         font-size: 18px;
         font-weight: 900;
@@ -120,10 +122,10 @@
     }
 
     .popap__form button {
-        margin-bottom: 25px;
+        position: absolute;
+        bottom: 25px;
         width: 238px;
         height: 46px;
-
         font-size: 14px;
         font-weight: 400;
         line-height: 17px;
@@ -132,4 +134,11 @@
 
 
     }
+}
+.popap_hr{
+    border-color: black;
+    opacity: 0.2;
+    width: 100%;
+    margin: auto;
+    margin-top: 8px;
 }

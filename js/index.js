@@ -5,6 +5,8 @@ let page = document.querySelector('.page');
 let inputs = document.querySelectorAll('input');
 let profile_name = document.querySelector('.profile__h1');
 let comment = document.querySelector('.profile__p');
+let popap__container = document.querySelector('.popap__container');
+
 
 function ChangeProfile (event) {
     
@@ -13,6 +15,7 @@ function ChangeProfile (event) {
     profile_name.textContent = inputs[0].value;
     comment.textContent = inputs[1].value;
     popap.style.display = 'none';
+   
 }
   
 
@@ -22,7 +25,6 @@ function ClosePopap () {
 
 function OpenPopap() {
     popap.style.display = 'flex';
-    
 }
 
 close_icon.addEventListener('click', ClosePopap);
