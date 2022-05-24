@@ -19,7 +19,11 @@
     .gallery__container {
         gap: 20px;
     }
-    
+}
+
+.gallery__box{
+    display: flex;
+    flex-direction: column;
 }
 
 .gallery__pic {
@@ -63,12 +67,13 @@
 .box_like:hover {
     opacity: 0.6;
 }
-.box_like_active {
+
+.box_like:active {
     background-image: url('../../images/like_active.svg');
     background-repeat: no-repeat;
     background-position: right;
 }
-.box_like_active:hover{
-    opacity: 1;
-}
+
+
+
 
