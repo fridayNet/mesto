@@ -38,66 +38,22 @@
      </div>
      
  </section>
-
-<section class="gallery">
-    <div class="gallery__container">
+ 
+ <div class="gallery__container">
+ <template id="gallery__template">
         <div class="gallery__box">
-            <img class="gallery__pic" src="images/mountains.png" alt="mountains">
-            <div class="box_name">
-                <h4>Карачаевск</h4>
-                <div class="box_like">
-                    <img src="images/like.svg" alt="like">
-                </div>
+            <button class="delete_box" type="button">
+                <img src="images/Vector-5.svg" alt="lid_urn">
+                <img src="images/delete button.svg" alt="urn"></button>
+            <img class="gallery__pic" alt="mountains">
+            <div class="gallery__description">
+                <h4 class="gallery__title"></h4>
+               <button class="add__like"><img class="box_like" src="images/like.svg" alt="like"></button>
             </div>
-        </div>
-        <div class="gallery__box">
-            <img class="gallery__pic" src="images/temple.png" alt="mountains">
-            <div class="box_name">
-                <h4>Гора Эльбрус</h4>
-                <div class="box_like">
-                    <img src="images/like.svg" alt="like">
-                </div>
-            </div>
-        </div>
-        <div class="gallery__box">
-            <img class="gallery__pic" src="images/field.png" alt="mountains">
-            <div class="box_name">
-                <h4>Домбай</h4>
-                <div class="box_like">
-                    <img src="images/like.svg" alt="like">
-                </div>
-            </div>
-        </div>
-        <div class="gallery__box">
-            <img class="gallery__pic" src="images/temple.png" alt="mountains">
-            <div class="box_name">
-                <h4>Гора Эльбрус Гора Эльбрус Гора Эльбрус</h4>
-                <div class="box_like">
-                    <img src="images/like.svg" alt="like">
-                </div>
-            </div>
-        </div>
-        <div class="gallery__box">
-            <img class="gallery__pic" src="images/field.png" alt="mountains">
-            <div class="box_name">
-                <h4>Домбай</h4>
-                <div class="box_like">
-                    <img src="images/like.svg" alt="like">
-                </div>
-            </div>
-        </div>
-        <div class="gallery__box">
-            <img class="gallery__pic" src="images/mountains.png" alt="mountains">
-            <div class="box_name">
-                <h4>Карачаевск</h4>
-                <div class="box_like">
-                    <img src="images/like.svg" alt="like">
-                </div>
-            </div>
-        </div>
-       
     </div>
-</section>
+ </template>
+</div>
+
 
 
 
@@ -107,21 +63,35 @@
 
 
 
-<section class="popap">
-    <div class="popap__container">
-    <img class="close_icon" src="images/Close Icon.svg" alt="Close_icon">
+<section class="popap-edit-profile">
+    <div class="popap-edit-profile__container">
+    <img class="popap-edit-profile__close_icon" src="images/Close Icon.svg" alt="Close_icon">
 
-        <form class="popap__form" action="#" enctype="text/plain">
+        <form class="popap-edit-profile__form" action="#" enctype="text/plain">
             <h2>Редактировать профиль</h2>
             <input class="popap__form_firstname" type="text" id="firstname" name="firstname" value="Жак-Ив Кусто">
             <hr class="popap_hr">
             <input type="text" id="status" name="status" value="Исследователь океана"> 
             <hr class="popap_hr">
-            <button type="submit">Сохранить</button>
+            <button  type="submit">Сохранить</button>
         </form>
     </div>
 </section>
 
+<section class="popap-add-card">
+    <div class="popap-add-card__container">
+    <img class="popap-add-card__close_icon" src="images/Close Icon.svg" alt="Close_icon">
+
+        <form class="popap-add-card__form" action="#" enctype="text/plain">
+            <h2>Новое место</h2>
+            <input type="text" id="card_title" name="cardtitle" placeholder="Название" value="" required>
+            <hr class="popap_hr">
+            <input type="text" id="card_link" name="cardlink" placeholder="Ссылка на картинку" value="" required> 
+            <hr class="popap_hr">
+            <button type="submit">Создать</button>
+        </form>
+    </div>
+</section>
 
 
 
